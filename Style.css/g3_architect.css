@@ -16,10 +16,11 @@
     color: #FFF;
     text-align: center;
     font-family: "Work Sans";
-    font-size: 20px;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    cursor: pointer;
 }
 
 header {
@@ -73,8 +74,33 @@ nav  a {
     color: #727272;
 }
 
-.banner-image{
-    width: 1440px;
-    height: 700px;
-    flex-shrink: 0;
+.banner img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+/* responsive media queries style */
+/* mobile divices */
+
+@media screen and (max-width: 576px) {
+    header {
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+    
+}
+
+/* tablet divices */
+@media screen and (min-width: 576px) and (max-width: 960px){
+    nav {
+        flex-direction: column;
+    }
+    header {
+        padding: 50px;
+    }
+
 }
