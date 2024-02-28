@@ -159,7 +159,7 @@ main {
     border-radius: 8px;
     max-width: 1190px;
     margin: 0 auto;
-    
+    margin-bottom: 50px;
 }
 .footer-section{
     color: #424242;
@@ -193,7 +193,9 @@ main {
         grid-template-columns: 1fr;
     }
 
-    
+    .footer-section{
+        font-size: 10px;
+    }
 
     
 }
@@ -213,5 +215,8 @@ main {
     }
     .sponsors-container-img img{
         width: 100px;
+    }
+    .footer-section{
+        font-size: 15px;
     }
 }
