@@ -120,6 +120,9 @@ main {
     header {
         padding: 20px;
     }
+    nav li{
+        margin: 20px;
+    }
 
     nav, .teams-container {
         flex-direction: column;
