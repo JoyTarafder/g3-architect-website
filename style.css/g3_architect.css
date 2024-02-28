@@ -24,6 +24,9 @@
     line-height: normal;
     cursor: pointer;
 }
+.color-light-grey{
+    color: #727272;
+}
 
 header {
     background: rgba(255, 144, 14, 0.10);
@@ -72,10 +75,6 @@ nav  a {
     color: #131313;
 }
 
-.banner-discription{
-    color: #727272;
-}
-
 .banner img{
     width: 100%;
     margin-top: 20px;
@@ -115,14 +114,6 @@ main {
 .features{
     color: #FF900E;
 }
-.teams-contain-discription{
-    color: #727272;
-    font-weight: 400; 
-    font-size: 1rem;
-    line-height: 26px;
-    padding-bottom: 1.5rem;
-}
-
 
 
 
